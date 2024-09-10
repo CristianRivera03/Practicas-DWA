@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo del encabezado */
+.header{
+    background-color: #BC6A43;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+/* contenedor de fila */
+.row{
+    display: flex;
+    flex-wrap: wrap; /*hace que las columnas se ajusten a pantallas pequeñas*/
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo de columnas */
+.col-3, .col-6, .col-12{
+    padding: 15px;
+}
+
+/* columna del menu */
+.col-3.menu{
+    flex: 25%; /*Ocupa el 25% del ancho*/
+    background-color: #0D1826;
+}
+
+.col-6{
+    flex: 50%;
+    background-color: #5C9B31;
+}
+
+/* columna adicional (derecha) */
+.col-3.right-column{
+    flex: 25%;
+    background-color: #7d68ca;
+    text-align: center;
+}
+
+
+.right-image{
+    max-width: 100%; /*la imagen ocupa todo el ancho posible*/
+    height: auto;
+    margin-left: auto;
+    margin-right: 0;
+    display: block;
+}
+
+/* estilo menu */
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li{
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #C1305A;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* estilo responsivo para pantallas pequeñas */
+@media screen and (max-width: 768px){
+    .col-3, .col-6{
+        flex: 100%;
+    }
+
+    .right-image{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
