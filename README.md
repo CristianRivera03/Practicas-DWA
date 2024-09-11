@@ -1,1 +1,1 @@
-# Practicas-Dise-o-Web-Adaptable
+# Practicas-Diseño-Web-Adaptable
