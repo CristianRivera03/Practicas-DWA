@@ -1,0 +1,28 @@
+.paginacion{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.paginacion li{
+    list-style: none;
+}
+
+.paginacion li a{
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.paginacion li a:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+
+.paginacion li a:active{
+    background-color: #0056b3;
+    color: #fff;
+}
