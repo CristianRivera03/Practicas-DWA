@@ -4,11 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <br>
-        
+        <!-- fila 1 imagen a todo ancho -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <img src="imgs/descarga.jpeg" alt="" srcset="" class="img-fluid img-full-width">
+            </div>
+        </div>
+
+        <!-- fila 2 imagen a la izquierda  -->
+        <div class="row mb-4">
+            <div class="col-6">
+                <img src="imgs/descarga.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <p class="text-right">
+                    Durante una época de lluvia sin fin, Hodaka, estudiante de escuela secundaria, escapa del problemático hogar del que
+                    proviene, en una zona rural, y huye a Tokio, donde se hace amigo de una chica huérfana capaz de alterar el tiempo
+                    atmosférico
+                </p>
+            </div>
+        </div>
+
+        <!-- fila 3 texto a la izquierda  -->
+        <div class="row mb-4">
+            <div class="col-md-6 d-flex align-items-center">
+
+                <p class="text-right">
+                    Durante una época de lluvia sin fin, Hodaka, estudiante de escuela secundaria, escapa del problemático hogar del que
+                    proviene, en una zona rural, y huye a Tokio, donde se hace amigo de una chica huérfana capaz de alterar el tiempo
+                    atmosférico
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/descarga.jpeg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- fila 4 tres columnas iguales con imagen -->
+
+        <div class="row">
+                <div class="col-md-4">
+                    <img src="imgs/descarga.jpeg" alt="" class="img-fluid">
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="imgs/descarga.jpeg" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="imgs/descarga.jpeg" alt="" class="img-fluid">
+                </div>
+        </div>
     </div>
 </body>
 </html>
